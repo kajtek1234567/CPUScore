@@ -1,18 +1,7 @@
 import PySimpleGUI as sg
 import psutil
 
-"""
-    Desktop floating widget - CPU Cores 
-    Uses psutil to display:
-        CPU usage of each individual core
-    CPU utilization is updated every 500 ms by default
-    Utiliziation is shown as a scrolling area graph
-    To achieve a "rainmeter-style" of window, these featurees were used:
-      An alpha-channel setting of 0.8 to give a little transparency
-      No titlebar
-      Grab anywhere, making window easy to move around
-    Copyright 2020 PySimpleGUI
-"""
+
 
 GRAPH_WIDTH = 120       # each individual graph size in pixels
 GRAPH_HEIGHT = 40
